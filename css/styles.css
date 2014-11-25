@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#shoppingcart {
+	position: absolute;
+	top: 170px;
+	left: 800px;
+	height: 100px;
+	width: 500px;
+	background: #eee;
+	border: 1px solid #444;
+}
+
+#shoppingcart p {
+	margin: 0 1em 1em;
+}
+
+h1 {
+	font-size: 140%;
+	margin: 0.5em 1em;
+}
+
+#stshoplist, #contents {
+	position: absolute;
+	background: #ddd;
+	border: 1px solid #333;
+}
+
+#stshoplist ul {
+	list-style-type: none;
+}
+
+#stshoplist ul li {
+	margin: 0 1em 1em;
+}
+
+#contents table {
+	font-size: 90%;
+	border-collapse: collapse;
+}
+
+#contents table td {
+	border: 1px solid #999;
+	width: 20%;
+}
+
+#contents table tr {
+    font-family: Author, cursive;
+	border: 1px solid #999;
+	width: 20%;
+}
+
+#contents p, #contents button {
+	margin: 1em;
+}
