@@ -51,17 +51,15 @@ mysql_select_db("$db_name") or die(mysql_error());
 $result = mysql_query("SELECT * FROM prod where category='msrt'");
 ?><table border="3">
 <?php
-while ($row = mysql_fetch_array($result)) 
-{
-echo "<td>";
-echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
-echo "<tr>" .$row['title']. "<br></tr>";
-echo "<tr>Price: &pound;" .$row['price'].  "<br>";              
-echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a></tr>';
-echo "</table></td>";              					 
+while ($row = mysql_fetch_array($result)) {
+	echo "<td>";
+	echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
+	echo "<tr>" .$row['title']. "<br></tr>";
+	echo "<tr>Price: &pound;" .$row['price'].  "<br>";              
+	echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a></tr>';
+	echo "</table></td>";              					 
 }
 echo "</table>";
-
 ?>
 
 <br>
@@ -75,17 +73,15 @@ mysql_select_db("$db_name") or die(mysql_error());
 $result = mysql_query("SELECT * FROM prod where category='msh'");
 ?><table border="3">
 <?php
-while ($row = mysql_fetch_array($result)) 
-{
-echo "<td>";
-echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
-echo "<tr>" .$row['title']. "<br></tr>";
-echo "<tr>Price: &pound;" .$row['price'].  "<br></tr>";                 
-echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a>';
-echo "</table></td>";              					 
+while ($row = mysql_fetch_array($result)) {
+	echo "<td>";
+	echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
+	echo "<tr>" .$row['title']. "<br></tr>";
+	echo "<tr>Price: &pound;" .$row['price'].  "<br></tr>";                 
+	echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a>';
+	echo "</table></td>";              					 
 }
 echo "</table>";
-
 ?>
 <br>
 <h2><u>Accessories</u></h2>
@@ -98,14 +94,13 @@ mysql_select_db("$db_name") or die(mysql_error());
 $result = mysql_query("SELECT * FROM prod where category='macc'");
 ?><table border="3">
 <?php
-while ($row = mysql_fetch_array($result)) 
-{
-echo "<td>";
-echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
-echo "<tr>" .$row['title']. "<br></tr>";
-echo "<tr>Price: &pound;" .$row['price'].  "<br></tr>";                 
-echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a>';
-echo "</table></td>";              					 
+while ($row = mysql_fetch_array($result)) {
+	echo "<td>";
+	echo "<table><tr><img src=\"images/" .$row['image']. "\" /> <br></tr>";
+	echo "<tr>" .$row['title']. "<br></tr>";
+	echo "<tr>Price: &pound;" .$row['price'].  "<br></tr>";                 
+	echo '<a href="cart.php?action=add&id='.$row['id'].'">Buy Now</a>';
+	echo "</table></td>";              					 
 }
 echo "</table>";
 
