@@ -5,3 +5,4 @@ The website shopping system was using the internet as the sole method for sellin
 This is not pretty site, nor I am pround of it. But this was my first website project. I had done this side project in my third year of engineering.
 
 <strong>Platforms used</strong>: PHP, HTML, CSS, JS, MySQL
+thank you
